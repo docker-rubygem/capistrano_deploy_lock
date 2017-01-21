@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.0.0
+ENV VERSION=1.3.2
 
 RUN gem install capistrano_deploy_lock --version ${VERSION} --no-format-exec
 
